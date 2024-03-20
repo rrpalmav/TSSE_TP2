@@ -1,4 +1,5 @@
-Trabajo practico numero 2 de la clase de Testing de Software de Sistemas Embedidos
+# Trabajo Práctico Número 2 de la clase de Testing de Software de Sistemas Embedidos
+
 
 1.  Al iniciar el controlador los leds deben quedar todos 
     los bits en 0 sin importar el estado anterior.
@@ -12,3 +13,23 @@ Trabajo practico numero 2 de la clase de Testing de Software de Sistemas Embedid
 8.  Apagar leds que ya esten apagados.
 9.  Comprobar valores prohibidos.
 10. Comprobar los valores de limite
+
+## Uso del repositorio
+
+Despues de clonar el repositorio usted deberia ejecutar el siguiente comando en linux:
+
+Instalar de Ruby
+```
+sudo apt-get install ruby gcovr
+```
+
+
+Instalar de Ceedling
+```
+sudo gem install ceedling
+```
+
+Verificar las pruebas que se realizaron
+```
+ceedling
+```
